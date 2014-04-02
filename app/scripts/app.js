@@ -9,9 +9,12 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+      /**
+       * Define Edges Route(s)
+       */
+      .when('/edges', {
+        templateUrl : 'views/edges.html',
+        controller: 'EdgesCtrl'
       })
       .otherwise({
         redirectTo: '/'
