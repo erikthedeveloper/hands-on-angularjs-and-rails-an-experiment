@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         {
           'context' : '/api',
           'host'    : 'localhost',
-          'port'    : '3000'
+          'port'    : '3333'
         }
       ],
       livereload: {
